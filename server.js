@@ -1,6 +1,9 @@
 const express = require('express');
 const path = require('path');
 
+var https = require('https');
+var http = require('http');
+
 const app = express();
 const port = process.env.PORT || 443;
 
@@ -13,6 +16,4 @@ app.get('*', (req, res) => {
 });
 
 // Start the server
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
+http.createServer(app).listen(80);
