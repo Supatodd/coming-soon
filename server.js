@@ -5,7 +5,7 @@ var https = require('https');
 var http = require('http');
 
 const app = express();
-const port = process.env.PORT || 443;
+const port = process.env.PORT || 3000;
 
 // Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, 'public')));
