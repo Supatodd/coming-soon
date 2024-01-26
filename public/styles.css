@@ -1,3 +1,7 @@
+html{
+  display: block;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +10,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f8f8f8;
+    background-color: #000000;
+  }
+
+  h2 {
+    color: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
   }
   
   .container {
@@ -19,5 +27,10 @@ body {
   
   p {
     color: #666;
+  }
+
+  img#coming-soon{
+    height: 500px;
+    width: 500px;
   }
   
