@@ -12,6 +12,14 @@ app.get('/', (req, res) => {
 });
 
 
+app.get('/business-cards/todd', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'business-cards/todd.html'));
+});
+
+app.get('/staging/rollin-v2', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/staging', 'rollin-v2/index.html'));
+});
+
 app.put('/subcribe', (req, res) => {
   return res.send('Put subscribe message');
 });
