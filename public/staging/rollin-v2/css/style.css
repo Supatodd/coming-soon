@@ -510,10 +510,7 @@ Topbar
 
 #header.header-always-fixed .header-inner, #header.header-always-fixed #header-wrap { position: fixed !important; top: 0 !important; }
 
-#logo:hover {
-  animation-name: rotate;
-  animation-duration: 0.7s;
-}
+
 
 #header-logo {
   height: 80px;
@@ -579,7 +576,7 @@ Main Menu
 
 #mainMenu nav > ul > li { float: left; border: 0; -webkit-transition: all .3s ease; transition: all .3s ease; margin-left: 6px; position: relative; }
 
-#mainMenu nav > ul > li > a { position: relative; font-family: "Poppins", sans-serif; padding: 10px 12px; text-transform: uppercase; font-size: 20px; font-weight: 600; letter-spacing: 0.6px; color: #000000; border-radius: 0; border-width: 0; border-style: solid; border-color: transparent; -webkit-transition: all .3s ease; transition: all .3s ease; line-height: normal; }
+#mainMenu nav > ul > li > a { position: relative; font-family: "Poppins", sans-serif; padding: 10px 12px; text-transform: uppercase; font-size: 20px; font-weight: 600; letter-spacing: 0.6px; color: #1C2135; border-radius: 0; border-width: 0; border-style: solid; border-color: transparent; -webkit-transition: all .3s ease; transition: all .3s ease; line-height: normal; }
 
 #mainMenu nav > ul > li > a > i { margin-left: 2px; margin-right: 6px; min-width: 14px; font-size: 14px; }
 
@@ -1362,7 +1359,7 @@ h6:not(:last-child), .h6:not(:last-child) { margin-bottom: 6px; }
 
 .display-4 { font-weight: 600; }
 
-p { font-size: 1.25rem; font-style: normal; font-weight: 500; text-transform: none; line-height: 1.7; letter-spacing: 0; color: #E7E9EE; font-family: "Poppins", sans-serif; }
+p { font-size: 1.25rem; font-style: normal; font-weight: 500; text-transform: none; line-height: 1.7; letter-spacing: 0; color: #1C2135; font-family: "Poppins", sans-serif; }
 
 ul.bullets { list-style: inside; }
 
@@ -3901,6 +3898,22 @@ th .form-check .form-check-input, td .form-check .form-check-input { float: none
 .card .post-video video, .card .post-video iframe { width: 100%; }
 
 .card .post-audio audio, .card .post-audio iframe { width: 100%; }
+
+.what-we-do-card{
+  width: 20%;
+  margin-right: auto;
+}
+
+@media (min-width: 992px) {
+  .col-lg-3{
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: 23%!important; 
+      margin-left: auto;
+  }
+
 
 .badge { text-transform: none; }
 
