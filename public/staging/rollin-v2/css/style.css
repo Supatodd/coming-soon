@@ -2597,6 +2597,7 @@ Image Block
 @media (max-width: 991.98px) { .hero-heading-3 { background-color: #4d668f; border: 30px solid #4d668f; padding: 30px; width: 100%; margin: 0; }
   .hero-heading-3 h2, .hero-heading-3 h3 { font-size: 40px !important; line-height: 40px !important; } }
 
+
 /*working-hours list*/
 .working-hours ul { padding: 0; }
 
@@ -6564,6 +6565,15 @@ body.breakpoint-xl .pricing-table .col-lg-2 .plan-list ul li, body.breakpoint-lg
 
 video { width: 100%; }
 
+
+body > div > section > div > div.row > div > div > p {
+  color: #5A6794;
+}
+
+body > div > section.fullscreen > div.container-fullwidth > div > div > div > h1{
+  color: #E7E9EE;
+}
+
 .bg-overlay { position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; content: ' '; z-index: 0; background: rgba(0, 0, 0, 0.59); opacity: .5; }
 
 .bg-overlay[data-style="1"] { background: #4d668f; }
@@ -6767,8 +6777,4 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
 
 .image-hover-zoom img {
 	width: 100%;
-}
-
-body > div > section > div > div.row > div > div > p {
-  color: #5A6794;
 }
