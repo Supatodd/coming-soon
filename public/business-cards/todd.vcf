@@ -1,10 +1,8 @@
 BEGIN:VCARD
 VERSION:4.0
 N:Sparkman;Todd;;Mr.;
-FN:JT Digital Solutions
 ORG:JT Digital Solutions LLC
 TITLE:Chief Technology Officer
-TEL;TYPE#mobile,voice;VALUE#uri:tel:+1-773-443-8633
-ADR;TYPE#WORK;PREF#1;LABEL#"Normality\nChicago\, IL 
+TEL;TYPE#mobile,voice;VALUE#uri:1-773-443-8633
 EMAIL:todd@jtdigitalsolutions.com
 END:VCARD
