@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Themeforest Template Polo, html template">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Document title -->
     <title>Todd Sparkman - Digital Business Card</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script
-      src="https://kit.fontawesome.com/d1a5081758.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <div id="container">
-      <div class="card floating shift">
-        <div class="about">
-          <h2>JT Digital Solutions</h2>
-          <h1>Todd Sparkman</h1>
-          <h4>Chief Technology Officer</h4>
-        </div>
-      </div>
-      <div class="card floating">
-        <div class="header">
-          <img src="profile.jpg" alt="Your Name" />
-        </div>
-        <div class="contact">
-          <h4>Download Contact Card</h4>
-          <div id="arrow-down"><i class="fa-solid fa-arrow-down"></i></div>
-          <div class="contact-card">
-            <a href="todd.vcf" download>
-              <i class="fa-regular fa-address-book contact-icon"></i
-            ></a>
-          </div>
-        </div>
-      </div>
+    <!-- Stylesheets & Fonts -->
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d1a5081758.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Body Inner -->
+    <div class="body-inner">
+        <!-- SECTION FULLSCREEN -->
+        <section class="parallax text-light halfscreen" data-bg-parallax="images/profile.jpg">
+            <div class="container">
+                <div class="container-fullscreen">
+                    <div class="text-middle text-center text-end">
+                        <h1 class="text-uppercase text-medium" data-animate="fadeInDown" data-animate-delay="100">Todd Sparkman
+                        </h1>
+                        <p class="lead" data-animate="fadeInDown" data-animate-delay="300">Chief Technology Officer</p>
+                    </div>
+                    <div class="text-middle text-center text-end contact">
+                        <div class="contact-card">
+                          <a href="todd.vcf" class="button" download>
+                            <button type="button" class="btn btn-roundeded btn-dark">Download Contact Card</i
+                          ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: SECTION FULLSCREEN -->
+        <hr class="space">
+        <!-- end: Footer -->
     </div>
-    </script>
-  </body>
+    <!-- end: Body Inner -->
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+</body>
+
 </html>
